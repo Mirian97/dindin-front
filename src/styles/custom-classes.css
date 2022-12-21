@@ -1,0 +1,22 @@
+.btn-primary-purple {
+    background-color: var(--color-purple-primary);
+    padding: 11px 0 10px;
+    height: 48px;
+}
+
+.btn-filter {
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 14px;
+}
+
+.btn-hover:hover {
+    opacity: 0.85;
+    transition: all 0.5s ease-in;
+}
+
+.btn-main-modal {
+    align-self: center;
+    max-height: 42px;
+    min-width: 236px;
+}

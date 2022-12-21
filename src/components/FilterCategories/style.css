@@ -1,0 +1,47 @@
+.container-filter-categories {
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    width: 959px;
+    max-width: 100%;
+    min-height: 205px;
+    margin-bottom: 61px;
+    padding: 32px 32px 13px;
+}
+
+.container-filter-categories h3 {
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 14px;
+}
+
+.categories-list {
+    flex-wrap: wrap;
+    gap: 9px;
+    width: 267px;
+    max-width: 100%;
+    padding: 20px 0 18px;
+}
+
+.filters {
+    gap: 18px;
+}
+
+.filters button {
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px 10.84px;
+}
+
+.btn-clear-filters {
+    background-color: #FAFAFA;
+    color: black;
+}
+
+.btn-aplly-filters {
+    background-color: #7978D9;
+    color: white;
+}

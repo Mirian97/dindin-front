@@ -1,0 +1,47 @@
+aside {
+    width: 236px;
+    max-width: 100%;
+    gap: 16px;
+}
+
+.box-resume {
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #2F2F2F;
+    min-height: 196px;
+    padding: 26px 33px 31px;
+    margin-top: 44px;
+}
+
+.box-resume__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.credit-debit {
+    gap: 12px;
+    margin: 35px 0 17px;
+}
+
+.box-resume p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.balance {
+    border-top: 1px solid #EAEAEA;
+    padding-top: 16px;
+}
+
+.balance h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.btn-add-record {
+    max-height: 42px;
+}

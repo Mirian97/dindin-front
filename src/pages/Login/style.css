@@ -1,0 +1,45 @@
+.container {
+    background: url("../../assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    min-width: 100vw;
+    padding-bottom: 100px;
+}
+
+.content-login {
+    gap: 91px;
+    margin-top: 77px;
+    padding: 0 122px 0 100px;
+}
+
+.content-login h1 {
+    font-weight: 700;
+    font-size: 3.25rem;
+    line-height: 62px;
+}
+
+.content-login p {
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 33px;
+    margin: 33px 0 43px;
+}
+
+.content-login main {
+    max-width: 40vw;
+}
+
+.btn-login {
+    width: 284px;
+}
+
+form {
+    width: 513px;
+}
+
+.inputs-login {
+    gap: 31px;
+    padding: 48px 0 73px;
+}

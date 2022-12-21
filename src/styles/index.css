@@ -1,0 +1,101 @@
+@import url('react-toastify/dist/ReactToastify.css');
+@import url('./layout.css');
+@import url('./custom-classes.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+  --color-purple-primary: #7978D9;
+  --color-purple-secondary: #7B61FF;
+  --color-purple-tertiary: #645FFB;
+  --color-pink: #FF57D3;
+  --color-orange: #FA8C10;
+  --color-white: #FFFFFF;
+  --color-blue: #3A9FF1;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.color-purple-primary {
+  color: var(--color-purple-primary);
+}
+
+.color-purple-secondary {
+  color: var(--color-purple-secondary);
+}
+
+.color-purple-tertiary {
+  color: var(--color-purple-tertiary);
+}
+
+.white {
+  color: var(--color-white);
+}
+
+.color-orange {
+  color: var(--color-orange);
+}
+
+.balance-value {
+  color: var(--color-blue);
+}
+
+button {
+  all: unset;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 17px;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-white);
+}
+
+input,
+select {
+  border: 1px solid #555555;
+  border-radius: 5px;
+
+  height: 63px;
+  padding: 0 15px;
+
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 21px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  left: 805px;
+  top: 194px;
+
+  background-color: var(--color-white);
+  padding: 60px 32px 53px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 33px;
+
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.transaction-table__header {
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 58px;
+}
+
+.transaction-table__date {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.transaction-table__date img {
+    margin-left: 5px;
+    margin-bottom: 3px;
+    min-width: 8px;
+    min-height: 5px;
+}
+
+th {
+    font-size: 0.875rem;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+.transaction-table__row {
+    text-align: center;
+    min-height: 60px;
+}
+
+td {
+    font-size: 0.875rem;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.transaction-table__row td {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.transaction-table__value {
+    font-weight: 700;
+}
+
+.transaction-table__add-edit {
+    gap: 12px;
+    min-height: 60px;
+    position: relative;
+}
+
+.transaction-table__add-edit img {
+    cursor: pointer;
+}

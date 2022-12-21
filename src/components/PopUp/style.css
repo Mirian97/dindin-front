@@ -1,0 +1,37 @@
+.card-pop-up {
+    background-image: url("../../assets/pop-up-background.svg");
+    background-repeat: no-repeat;
+    gap: 4px;
+    min-height: 55px;
+    min-width: 111px;
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    z-index: 1;
+}
+
+.card-pop-up h6 {
+    font-weight: 300;
+    font-size: 0.625rem;
+    line-height: 12px;
+}
+
+.card-pop-up button {
+    font-weight: 500;
+    font-size: 0.5625rem;
+    line-height: 11px;
+    min-height: 15px;
+    min-width: 37px;
+}
+
+.card-pop-up__buttons {
+    gap: 7px;
+}
+
+.btn-confirm {
+    background-color: var(--color-blue);
+}
+
+.btn-not-confirm {
+    background-color: #FF576B;
+}

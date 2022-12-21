@@ -1,0 +1,32 @@
+.category {
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 80px;
+    min-height: 20px;
+    padding: 4px 7.7px 4px 10px;
+    margin-right: 3px;
+}
+
+.active {
+    background-color: #7978D9;
+    color: white;
+}
+
+.description-category {
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 12px;
+    margin-right: 5px;
+}
+
+.select-category {
+    max-width: 5.38px;
+    max-height: 5.34px;
+    transform: rotate(-45deg);
+}
+
+.deselect {
+    transform: rotate(90deg);
+}
